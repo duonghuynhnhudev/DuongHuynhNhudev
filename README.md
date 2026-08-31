@@ -98,37 +98,6 @@ This repository hosts the modern, interactive developer portfolio of **Duong Dao
 
 ---
 
-## 📂 Project Structure
-
-```
-DuongHuynhNhudev/
-├── public/                # Static assets, icons, and avatars
-│   ├── avatar.png
-│   ├── favicon.png
-│   └── icons.svg
-├── src/
-│   ├── assets/            # Project images and graphic assets
-│   ├── components/        # Modular UI components
-│   │   ├── Navbar.jsx     # Navigation bar with branding avatar
-│   │   ├── Hero.jsx       # Hero portrait showcase & floating badges
-│   │   ├── About.jsx      # Personal bio & profile spotlight
-│   │   ├── Skills.jsx     # Technical proficiency bars & categories
-│   │   ├── Experience.jsx # Interactive career timeline
-│   │   ├── Projects.jsx   # Client web & mobile projects showcase
-│   │   ├── Contact.jsx    # Direct AJAX contact form
-│   │   └── Footer.jsx     # Brand footer & social links
-│   ├── data/
-│   │   └── portfolio.js   # Centralized portfolio data & content
-│   ├── App.jsx            # Main app container
-│   ├── index.css          # Design system, glassmorphism & keyframes
-│   └── main.jsx           # Vite entry point
-├── index.html             # HTML5 template & SEO meta tags
-├── package.json           # Dependencies & build scripts
-└── vite.config.js         # Vite configuration
-```
-
----
-
 ## 📬 Contact & Connect
 
 Feel free to reach out for project inquiries, freelance opportunities, or technical collaborations:
