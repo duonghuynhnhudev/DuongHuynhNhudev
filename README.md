@@ -98,38 +98,6 @@ This repository hosts the modern, interactive developer portfolio of **Duong Dao
 
 ---
 
-## 🚀 Getting Started
-
-### **Prerequisites**
-- **Node.js**: `v18.0.0` or higher
-- **npm** / **yarn** / **pnpm**
-
-### **Installation**
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/huynhnhu204/DuongHuynhNhudev.git
-   cd DuongHuynhNhudev
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Start the local development server:**
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-4. **Build for production:**
-   ```bash
-   npm run build
-   ```
-
----
-
 ## 📂 Project Structure
 
 ```
