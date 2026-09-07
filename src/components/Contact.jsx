@@ -59,7 +59,7 @@ export default function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 gradient-bg rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 gradient-bg rounded-full flex items-center justify-center shrink-0">
                   <i className="fa-solid fa-envelope text-white" />
                 </div>
                 <div>
@@ -74,7 +74,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 gradient-bg rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 gradient-bg rounded-full flex items-center justify-center shrink-0">
                   <i className="fa-solid fa-phone text-white" />
                 </div>
                 <div>
@@ -86,7 +86,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 gradient-bg rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 gradient-bg rounded-full flex items-center justify-center shrink-0">
                   <i className="fa-solid fa-location-dot text-white" />
                 </div>
                 <div>

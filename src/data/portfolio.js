@@ -13,7 +13,7 @@ export const personalInfo = {
   phone: '+84933874215',
   location: 'Thu Duc, Ho Chi Minh City, Vietnam',
   social: {
-    github: 'https://github.com/huynhnhu204',
+    github: 'https://github.com/duonghuynhnhudev',
     whatsapp: 'https://wa.me/qr/B2APEQG3IOGUE1',
   },
   stats: [

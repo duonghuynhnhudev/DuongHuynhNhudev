@@ -13,7 +13,7 @@
     <a href="mailto:duonghuynhnhu.work@gmail.com">
       <img src="https://img.shields.io/badge/Email-duonghuynhnhu.work%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://github.com/huynhnhu204">
+    <a href="https://github.com/duonghuynhnhudev">
       <img src="https://img.shields.io/badge/GitHub-huynhnhu204-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
     <a href="https://wa.me/qr/B2APEQG3IOGUE1">
@@ -104,7 +104,7 @@ Feel free to reach out for project inquiries, freelance opportunities, or techni
 
 - 📧 **Email**: [duonghuynhnhu.work@gmail.com](mailto:duonghuynhnhu.work@gmail.com)
 - 💬 **WhatsApp**: [Chat via WhatsApp](https://wa.me/qr/B2APEQG3IOGUE1)
-- 🐙 **GitHub**: [@huynhnhu204](https://github.com/huynhnhu204)
+- 🐙 **GitHub**: [@huynhnhu204](https://github.com/duonghuynhnhudev)
 - 📍 **Location**: Thu Duc, Ho Chi Minh City, Vietnam
 
 ---
