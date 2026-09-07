@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://huynhnhu204.github.io/DuongHuynhNhudev/",
+  "homepage": "https://duonghuynhnhudev.github.io/DuongHuynhNhudev/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
