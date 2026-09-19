@@ -12,6 +12,19 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+
+    const trimmedForm = {
+      name: form.name.trim(),
+      email: form.email.trim(),
+      subject: form.subject.trim(),
+      message: form.message.trim(),
+    }
+
+    if (!trimmedForm.name || !trimmedForm.email || !trimmedForm.subject || !trimmedForm.message) {
+      toast.error('Please complete all fields before sending the message.')
+      return
+    }
+
     setSending(true)
 
     try {
@@ -22,11 +35,12 @@ export default function Contact() {
           Accept: 'application/json',
         },
         body: JSON.stringify({
-          name: form.name,
-          email: form.email,
-          subject: `[Portfolio] ${form.subject}`,
-          message: form.message,
+          name: trimmedForm.name,
+          email: trimmedForm.email,
+          subject: `[Portfolio] ${trimmedForm.subject}`,
+          message: trimmedForm.message,
           _template: 'table',
+          _replyto: trimmedForm.email,
         }),
       })
 
@@ -35,7 +49,13 @@ export default function Contact() {
       toast.success('Message sent successfully! I will get back to you soon.')
       setForm({ name: '', email: '', subject: '', message: '' })
     } catch {
-      toast.error('Unable to send the message. Please email me directly instead.')
+      const fallbackBody = `Name: ${form.name}\nEmail: ${form.email}\nSubject: ${form.subject}\n\nMessage:\n${form.message}`
+      window.location.href = `mailto:${personalInfo.email}?subject=${encodeURIComponent(
+        `[Portfolio] ${form.subject}`,
+      )}&body=${encodeURIComponent(fallbackBody)}`
+
+      toast.info('Your email client has been opened. Please send the message manually if needed.')
+      setForm({ name: '', email: '', subject: '', message: '' })
     } finally {
       setSending(false)
     }
